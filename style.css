@@ -1,0 +1,106 @@
+h1{
+    color: 050401;
+    top: 2%;
+}
+p{
+    font-size: large;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+.p1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -330%);
+    display: inline-block;
+    width: 800px;
+}
+.p2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1500%);
+    display: inline-block;
+    width: 800px;
+}
+body{
+    color: 050401;
+    z-index: 1;
+    font-style: oblique;
+}
+.container h1{
+    z-index: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 245%;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    margin: 0px;
+    display: inline-block;
+    width: 750px;
+}
+.background{
+    width: 812px;
+    height: 743px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.protein{
+    z-index: 1;
+    height: 400px;
+    width: 291px;
+    position: absolute;
+    top: 290px;
+    left: 50%;
+    transform: translate(-50%,-20%);
+}
+a{
+    z-index: 1;
+    color: #ff4747;
+    font-size: x-large;
+    margin: 1px;
+    padding: 1px;
+    border-radius: 15px;
+    border-style: dashed;
+    border-width: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 725%);
+    display: inline-block;
+    width: 800px;
+}
+div{
+    text-align: center;
+    backdrop-filter: blur(35px);
+    background-size: auto;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    font-size: x-large;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+.cost{
+    transform: translateY(27px);
+    font-size:large;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1250%);
+    display: inline-block;
+    width: 800px;
+}
